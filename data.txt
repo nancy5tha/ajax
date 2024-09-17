@@ -1,0 +1,2 @@
+Even though you clicked on the "like" button it doesnot reload the page .!!
+"THIS IS THE TEXT  FROM TXT FILE"

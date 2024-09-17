@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajax button</title>
+    <style>
+        #likeButton {
+            padding: 10px 20px;
+            background-color: #008CBA;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #likeButton:hover {
+            background-color: #005f73;
+        }
+    </style>
+</head>
+<body>
+    <h1>Like Button using ajax</h1>
+    <button id="likeButton" onclick="incrementLike()">Like</button>
+    <span id="likeCount">0</span>
+    <br>
+    <br>
+    <button onclick="loadData()">click here</button>
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
